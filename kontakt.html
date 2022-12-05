@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>WebProgramiranje Vezba1</title>
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/all.min.css" rel="stylesheet">
+		<link href="css/mystyle.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div class = "container">
+			
+			<header> <!-- Pocetak headera -->
+				<div class="page-header">
+					<h1><a href = "index.html"><img src = "img/slika1.png" alt = "logo.slika" width = "58px" height = "58px"></a><small> Machine Shop DOO.</small></h1>
+				</div>
+			</header> <!-- Kraj headera -->
+			
+			<nav class="navbar navbar-default"> <!-- Pocetak Nav Bara-->
+				<div class="container-fluid">
+					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Pocetna strana</a>
+					</div>
+					
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="onama.html">O nama <span class="sr-only">(current)</span></a></li>
+							<li><a href="galerija.html">Galerija</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proizvodi<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Proizvod 1</a></li>
+									<li><a href="#">Proizvod 2</a></li>
+									<li><a href="#">Mapa sajta</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Strana za stampu</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Polje za unos">
+							</div>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="kontakt.html"><strong>Kontakt</strong></a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav> <!--Kraj Nav Bar-a-->
+			
+			<section> <!-- Pocetak section-a -->
+				
+				<div class="row">
+					
+					<div class="col-md-6"> <!-- Pocetak leve strane -->
+						<header class="page-header">
+							<h2>Kontakt</h2>
+						</header>
+						<form>
+							
+							<div class="form-group">
+								<label for="ImePrezime">Ime i Prezime</label>
+								<input type="text" class="form-control" id="IDimeprezime" placeholder="Unesite vase ime">
+							</div>
+							
+							<div class="form-group">
+								<label for="Email">Vas Email</label>
+								<input type="email" class="form-control" id="IDemail" placeholder="Email">
+							</div>
+							
+							<div class="form-group">
+								<label for="Telefon">Telefon</label>
+								<input type="number" class="form-control" id="IDtelefon" placeholder="Broj telefona">
+							</div>
+							
+							<div class="form-group">
+								<label for="Naslov">Naslov</label>
+								<input type="text" class="form-control" id="IDnaslov" placeholder="Naslov poruke">
+							</div>
+							
+							<div class="form-group">
+								<label for="Poruka">Poruka</label>
+								<textarea class="form-control" id = "IDporuka" rows="5" placeholder = "Unesite vasu poruku"></textarea>
+							</div>
+							
+							<button type="submit" class="btn btn-primary btn-lg btn-block">Posalji</button>
+						</form>	
+					</div> <!-- Kraj leve strane -->
+					
+					<div class="col-md-6"> <!-- Pocetak desne strane -->
+						<header class="page-header">
+							<h2>Gde se nalazimo</h2>
+						</header>
+						<address>
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Savski Nasip 9,Beograd,11000<br>
+							<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +381 11 2569 100<br>
+							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:#"> first.last@example.com</a>
+						</address>
+						<div class = "kutija1">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2831.6725100868366!2d20.
+							466923001001625!3d44.787481468270144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1637586965503!5m2!1ssr!2srs" 
+							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div> <!-- Kraj desne strane -->
+					
+				</div>
+				
+			</section> <!-- Kraj section-a -->
+			
+			<footer> <!-- Pocetak footera -->
+				
+				<div class="row"> <!-- Pocetak gornjeg dela footera-->
+					
+					<div class="col-md-4"> <!-- Poceteak bloka "O nama" -->
+						<h4 class="page-header">O nama</h4>
+						<div class = "caption">
+							<p class = "text-justify">
+								Najveći lanac maloprodaja i na webu i na zemlji! 
+								U našem asortimanu možete pronaći veliki izbor IT opreme, AV opreme, bele tehnike,
+								malih kućnih aparata, uređaja za video nadzor, satova, nakita, igračaka za decu,
+								aparata za zdravlje ali i mnogih drugih uređaja.
+								Poslujemo unutar grupacije koju čini Tehnomanija doo sa brend imenom –
+								<strong> WinWin.</strong>	
+							</p>
+						</div>
+					</div> <!-- Kraj bloka "O nama" -->
+					
+					<div class="col-md-4"> <!-- Poceteak bloka "Kontakt" -->
+						<h4 class="page-header">Kontakt</h4>
+						<p><i class="fas fa-anchor"></i> 11080 Zemun, Beograd</p>
+						<p><i class="fas fa-phone"></i> +381 11/40-11-216</p>
+						<p><i class="fas fa-envelope"></i> upis@its.edu.rs</p> 
+					</div><!-- Kraj bloka "Kontakt" -->
+					
+					<div class="col-md-4"> <!-- Poceteak bloka "Pratite nas" -->
+						<h4 class="page-header">Pratite nas</h4>
+						<ul class = "list-inline">
+							<li><a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-5x"></i></a></li>
+							<li><a href="http://instagram.com" target="_blank"><i class="fab fa-instagram-square fa-5x"></i></a></li>
+							<li><a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a></li>
+							<li><a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-5x"></i></a></li>
+						</ul>
+					</div> <!-- Kraj bloka "Pratite nas" -->
+					
+				</div> <!-- Kraj gornjeg dela footera-->
+				
+				<div id="footerpanel1" class="panel-footer"> <!-- Pocetak donjeg dela footera -->
+					<div class="row">
+						<div class="col-md-6">
+							<ul class = "list-inline">
+								<li><a href ="onama.html">O nama</a></li>
+								<li><a href ="#">Proizvodi</a></li>
+								<li><a href ="#">FAQ</a></li>
+								<li><a href ="#">Promocije</a></li>
+								<li><a href ="galerija.html">Galerija</a></li>
+								<li><a href ="kontakt.html">Kontakt</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<p class = "text-right">Copyright &copy; 2021 Stefan Milovanovic &#64; S.DBP </p>
+						</div>
+					</div>
+				</div> <!-- Kraj donjeg dela footera -->
+				
+			</footer> <!-- Kraj footera -->
+			
+			
+		</div> <!-- Kraj Kontejnera-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>				
